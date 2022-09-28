@@ -1,7 +1,7 @@
 ---
 layout: page
-title: resources
-permalink: /resources
+title: recreation
+permalink: /recreation
 description: 
 nav: true
 
