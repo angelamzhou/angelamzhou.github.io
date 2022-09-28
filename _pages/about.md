@@ -2,24 +2,33 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>401S Bridge Hall</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Assistant Professor at USC Marshall Data Sciences and Operations, in the Operations group. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously I was a research fellow at the Simons program on causality, a FODSI postdoc at UC Berkeley, hosted by Bin Yu, and Michael I. Jordan. I obtained my PhD from Cornell University in [Operations Research and Information Engineering](http://www.orie.cornell.edu) working with [Nathan Kallus](nathankallus.com) at Cornell Tech. My work was previously supported on a NDSEG fellowship.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests are broadly in data-driven decision making under uncertainty, including operations, statistical machine learning, and causal inference, and the interplay of statistics and optimization. 
+
+I'm happy to chat about possible collaborations. If you are a student at USC, please feel free to email me (and check with your advisor). If you are interested in becoming a PhD student at USC, please apply to the [Data Sciences and Operations PhD program](https://www.marshall.usc.edu/programs/phd-program/departments/data-sciences-and-operations) if you'd like to work with me.  
+        
+Email: zhoua at usc.edu. 
+
+[[Scholar]](https://scholar.google.com/citations?user=uSO4RPUAAAAJ&hl=en), [[CV]](https://github.com/angelamzhou/cv/blob/master/cv.pdf), [[tw]](https://www.twitter.com/angelamczhou)
+
+Research: 
+- [Computerized influence functions](https://arxiv.org/abs/2208.13701) for [optimization](https://arxiv.org/pdf/2202.12958)-based estimators in causal inference
+- Credible causal inference for [optimal decisions](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3699) and [bounds](https://arxiv.org/abs/1810.02894); and [for infinite-horizon offline reinforcement learning](https://arxiv.org/abs/2002.04518) under violations of assumptions 
+- Algorithmic fairness: [biased data](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:u5HHmVD_uO8C), [partial identification bounds](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:IjCSPb-OGe4C) on [causal disparities](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:zYLM7Y9cAGgC). Substantive: [don't use CJ data for ML benchmarks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:0EnyYjriUFMC), evaluating [short term impacts of bail reform on aggregate crime.](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:hqOjcs7Dif8C)

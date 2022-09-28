@@ -1,82 +1,191 @@
+% Encoding: UTF-8
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@Article{jordan2022empirical,
+  author  = {Jordan, Michael and Wang, Yixin and Zhou, Angela},
+  title   = {Empirical Gateaux Derivatives for Causal Inference},
+  journal = {conference version at Neurips; journal version in preparation},
+  year    = {2022},
+  abstract = {We study a constructive algorithm that approximates Gateaux derivatives for statistical functionals by finite-differencing, with a focus on causal inference functionals. We consider the case where probability distributions are not known a priori but also need to be estimated from data. These estimated distributions lead to empirical Gateaux derivatives, and we study the relationships between empirical, numerical, and analytical Gateaux derivatives. Starting with a case study of counterfactual mean estimation, we instantiate the exact relationship between finite-differences and the analytical Gateaux derivative. We then derive requirements on the rates of numerical approximation in perturbation and smoothing that preserve the statistical benefits of one-step adjustments, such as rate-double-robustness. We then study more complicated functionals such as dynamic treatment regimes and the linear-programming formulation for policy optimization in infinite-horizon Markov decision processes. The newfound ability to approximate bias adjustments in the presence of arbitrary constraints illustrates the usefulness of constructive approaches for Gateaux derivatives. We also find that the statistical structure of the functional (rate-double robustness) can permit less conservative rates of finite-difference approximation. This property, however, can be specific to particular functionals, e.g. it occurs for the counterfactual mean but not the infinite-horizon MDP policy value.
+  },
+  arxiv = {2208.13701}, 
+  selected = {true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+
+@article{kallus2020minimax,
+  title={Minimax-Optimal Policy Learning under Unobserved Confounding},
+  author={Kallus, Nathan and Zhou, Angela},
+  journal={Management Science (Forthcoming), supersedes Neurips 2018 version},
+  year={2020},
+  abstract={We study the problem of learning personalized decision policies from observational data while accounting for possible unobserved confounding in the data-generating process. Unlike previous approaches that assume unconfoundedness, ie, no unobserved confounders affected both treatment assignment and outcomes, we calibrate policy learning for realistic violations of this unverifiable assumption with uncertainty sets motivated by sensitivity analysis in causal inference. Our framework for confounding-robust policy improvement optimizes the minimax regret of a candidate policy against a baseline or reference" status quo" policy, over an uncertainty set around nominal propensity weights. We prove that if the uncertainty set is well-specified, robust policy learning can do no worse than the baseline, and only improve if the data supports it. We characterize the adversarial subproblem and use efficient algorithmic solutions to optimize over parametrized spaces of decision policies such as logistic treatment assignment. We assess our methods on synthetic data and a large clinical trial, demonstrating that confounded selection can hinder policy learning and lead to unwarranted harm, while our robust approach guarantees safety and focuses on well-evidenced improvement.
+},
+code={https://github.com/CausalML/confounding-robust-policy-improvement},
+video={https://www.youtube.com/watch?v=4MRqoUmeebw},
+  selected = {true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@Article{kallus2020confounding,
+  author   = {Kallus, Nathan and Zhou, Angela},
+  title    = {Confounding-Robust Policy Evaluation in Infinite-Horizon Reinforcement Learning},
+  journal  = {Neurips},
+  year     = {2020},
+  abstract = {Off-policy evaluation of sequential decision policies from observational data is necessary in applications of batch reinforcement learning such as education and healthcare. In such settings, however, observed actions are often confounded with transitions by unobserved variables, rendering exact evaluation of new policies impossible, ie, unidentifiable. We develop a robust approach that estimates sharp bounds on the (unidentifiable) value of a given policy in an infinite-horizon problem given data from another policy with unobserved confounding subject to a sensitivity model. We phrase the problem precisely as computing the support function of the set of all stationary state-occupancy ratios that agree with both the data and the sensitivity model. We show how to express this set using a new partially identified estimating equation and prove convergence to the sharp bounds, as we collect more confounded data. We prove that membership in the set can be checked by solving a linear program, while the support function is given by a difficult nonconvex optimization problem. We leverage an analytical solution for the finite-state-space case to develop approximations based on nonconvex projected gradient descent. We demonstrate the resulting bounds empirically.
+},
+  arxiv    = {2002.04518},
+  code = {https://github.com/CausalML/ConfoundingRobustInfiniteHorizon},
+  video    = {https://youtu.be/aKQmEm2i4O8},
+    selected = {true}
+  }
+
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@Article{kallus2018confounding,
+  author  = {Kallus, Nathan and Zhou, Angela},
+  title   = {Confounding-robust policy improvement},
+  journal = {Neurips},
+  year    = {2018},
+  pages   = {9269--9279},
+  arxiv   = {1805.08593},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@Article{kallus2018policy,
+  author   = {Kallus, Nathan and Zhou, Angela},
+  title    = {Policy Evaluation and Optimization with Continuous Treatments},
+  journal  = {AISTATS},
+  year     = {2018},
+  pages    = {1243--1251},
+  abstract = {We study the problem of policy evaluation and learning from batched contextual bandit data when treatments are continuous, going beyond previous work on discrete treatments. Previous work for discrete treatment/action spaces focuses on inverse probability weighting (IPW) and doubly robust (DR) methods that use a rejection sampling approach for evaluation and the equivalent weighted classification problem for learning. In the continuous setting, this reduction fails as we would almost surely reject all observations. To tackle the case of continuous treatments, we extend the IPW and DR approaches to the continuous setting using a kernel function that leverages treatment proximity to attenuate discrete rejection. Our policy estimator is consistent and we characterize the optimal bandwidth. The resulting continuous policy optimizer (CPO) approach using our estimator achieves convergent regret and approaches the best-in-class policy for learnable policy classes. We demonstrate that the estimator performs well and, in particular, outperforms a discretization-based benchmark. We further study the performance of our policy optimizer in a case study on personalized dosing based on a dataset of Warfarin patients, their covariates, and final therapeutic doses. Our learned policy outperforms benchmarks and nears the oracle-best linear policy.
+},
+  arxiv    = {1802.06037},
+  code     = {https://github.com/CausalML/continuous-policy-learning},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@Article{kallus2018residual,
+  author   = {Kallus, Nathan and Zhou, Angela},
+  title    = {Residual Unfairness in Fair Machine Learning from Prejudiced Data},
+  journal  = {ICML},
+  year     = {2018},
+  pages    = {2439--2448},
+  abstract = {Recent work in fairness in machine learning has proposed adjusting for fairness by equalizing accuracy metrics across groups and has also studied how datasets affected by historical prejudices may lead to unfair decision policies. We connect these lines of work and study the residual unfairness that arises when a fairness-adjusted predictor is not actually fair on the target population due to systematic censoring of training data by existing biased policies. This scenario is particularly common in the same applications where fairness is a concern. We characterize theoretically the impact of such censoring on standard fairness metrics for binary classifiers and provide criteria for when residual unfairness may or may not appear. We prove that, under certain conditions, fairness-adjusted classifiers will in fact induce residual unfairness that perpetuates the same injustices, against the same groups, that biased the data to begin with, thus showing that even state-of-the-art fair machine learning can have a" bias in, bias out" property. When certain benchmark data is available, we show how sample reweighting can estimate and adjust fairness metrics while accounting for censoring. We use this to study the case of Stop, Question, and Frisk (SQF) and demonstrate that attempting to adjust for fairness perpetuates the same injustices that the policy is infamous for.
+},
+  arxiv    = {1806.02887},
 }
+
+@Article{kallus2019fairness,
+  author   = {Kallus, Nathan and Zhou, Angela},
+  title    = {The fairness of risk scores beyond classification: Bipartite ranking and the xauc metric},
+  journal  = {Neurips},
+  year     = {2019},
+  pages    = {3438--3448},
+  abstract = {Where machine-learned predictive risk scores inform high-stakes decisions, such as bail and sentencing in criminal justice, fairness has been a serious concern. Recent work has characterized the disparate impact that such risk scores can have when used for a binary classification task. This may not account, however, for the more diverse downstream uses of risk scores and their non-binary nature. To better account for this, in this paper, we investigate the fairness of predictive risk scores from the point of view of a bipartite ranking task, where one seeks to rank positive examples higher than negative ones. We introduce the xAUC disparity as a metric to assess the disparate impact of risk scores and define it as the difference in the probabilities of ranking a random positive example from one protected group above a negative one from another group and vice versa. We provide a decomposition of bipartite ranking loss into components that involve the discrepancy and components that involve pure predictive ability within each group. We use xAUC analysis to audit predictive risk scores for recidivism prediction, income prediction, and cardiac arrest prediction, where it describes disparities that are not evident from simply comparing within-group predictive performance.
+},
+  arxiv    = {abs/1902.05826},
+  code     = {https://github.com/CausalML/xauc},
+}
+
+@Article{kallus2019assessing,
+  author   = {Kallus, Nathan and Mao, Xiaojie and Zhou, Angela},
+  title    = {Assessing algorithmic fairness with unobserved protected class using data combination},
+  journal  = {Management Science (Forthcoming). A preliminary version appeared at FaCCT 2020},
+  year     = {2019},
+  abstract = {The increasing impact of algorithmic decisions on people's lives compels us to scrutinize their fairness and, in particular, the disparate impacts that ostensibly-color-blind algorithms can have on different groups. Examples include credit decisioning, hiring, advertising, criminal justice, personalized medicine, and targeted policymaking, where in some cases legislative or regulatory frameworks for fairness exist and define specific protected classes. In this paper we study a fundamental challenge to assessing disparate impacts in practice: protected class membership is often not observed in the data. This is particularly a problem in lending and healthcare. We consider the use of an auxiliary dataset, such as the US census, that includes class labels but not decisions or outcomes. We show that a variety of common disparity measures are generally unidentifiable aside for some unrealistic cases, providing a new perspective on the documented biases of popular proxy-based methods. We provide exact characterizations of the sharpest-possible partial identification set of disparities either under no assumptions or when we incorporate mild smoothness constraints. We further provide optimization-based algorithms for computing and visualizing these sets, which enables reliable and robust assessments--an important tool when disparity assessment can have far-reaching policy implications. We demonstrate this in two case studies with real data: mortgage lending and personalized medicine dosing.
+},
+  arxiv    = {1906.00285},
+  code     = {https://github.com/CausalML/FairnessWithUnobservedProtectedClass},
+  video    = {https://www.youtube.com/watch?v=z-ZI1VoA-O0&list=PLXA0IWa3BpHkaM6uJauBdtkR3Hp4rePfp},
+    selected = {true}
+  }
+  }
+
+}
+
+@Article{kallus2019assessing,
+  author   = {Kallus, Nathan and Zhou, Angela},
+  title    = {Assessing Disparate Impact of Personalized Interventions: Identifiability and Bounds},
+  journal  = {Neurips},
+  year     = {2019},
+  pages    = {3426--3437},
+  abstract = {
+  Personalized interventions in social services, education, and healthcare leverage individual-level causal effect predictions in order to give the best treatment to each individual or to prioritize program interventions for the individuals most likely to benefit. While the sensitivity of these domains compels us to evaluate the fairness of such policies, we show that actually auditing their disparate impacts per standard observational metrics, such as true positive rates, is impossible since ground truths are unknown. Whether our data is experimental or observational, an individual's actual outcome under an intervention different than that received can never be known, only predicted based on features. We prove how we can nonetheless point-identify these quantities under the additional assumption of monotone treatment response, which may be reasonable in many applications. We further provide a sensitivity analysis for this assumption via sharp partial-identification bounds under violations of monotonicity of varying strengths. We show how to use our results to audit personalized interventions using partially-identified ROC and xROC curves and demonstrate this in a case study of a French job training dataset.
+  },
+  arxiv    = {1906.01552},
+  code     = {https://github.com/CausalML/interventions-disparate-impact-responders},
+}
+
+@Article{kallus2019interval,
+  author   = {Kallus, Nathan and Mao, Xiaojie and Zhou, Angela},
+  title    = {Interval estimation of individual-level causal effects under unobserved confounding},
+  journal  = {AISTATS},
+  year     = {2019},
+  pages    = {2281--2290},
+  abstract = {We study the problem of learning conditional average treatment effects (CATE) from observational data with unobserved confounders. The CATE function maps baseline covariates to individual causal effect predictions and is key for personalized assessments. Recent work has focused on how to learn CATE under unconfoundedness, ie, when there are no unobserved confounders. Since CATE may not be identified when unconfoundedness is violated, we develop a functional interval estimator that predicts bounds on the individual causal effects under realistic violations of unconfoundedness. Our estimator takes the form of a weighted kernel estimator with weights that vary adversarially. We prove that our estimator is sharp in that it converges exactly to the tightest bounds possible on CATE when there may be unobserved confounders. Further, we study personalized decision rules derived from our estimator and prove that they achieve optimal minimax regret asymptotically. We assess our approach in a simulation study as well as demonstrate its application in the case of hormone replacement therapy by comparing conclusions from a real observational study and clinical trial.
+},
+  arxiv    = {1810.02894},
+
+}
+
+@Article{pricing2021,
+  author  = {Kallus, Nathan and Zhou, Angela},
+  title   = {Fairness, Welfare, and Equity in Personalized Pricing},
+  journal = {ACM Conference on Fairness, Accountability, and Transparency (FAccT)},
+  year    = {2021},
+  abstract = {We study the interplay of fairness, welfare, and equity considerations in personalized pricing based on customer features. Sellers are increasingly able to conduct price personalization based on predictive modeling of demand conditional on covariates: setting customized interest rates, targeted discounts of consumer goods, and personalized subsidies of scarce resources with positive externalities like vaccines and bed nets. These different application areas may lead to different concerns around fairness, welfare, and equity on different objectives: price burdens on consumers, price envy, firm revenue, access to a good, equal access, and distributional consequences when the good in question further impacts downstream outcomes of interest. We conduct a comprehensive literature review in order to disentangle these different normative considerations and propose a taxonomy of different objectives with mathematical definitions. We focus on observational metrics that do not assume access to an underlying valuation distribution which is either unobserved due to binary feedback or ill-defined due to overriding behavioral concerns regarding interpreting revealed preferences. In the setting of personalized pricing for the provision of goods with positive benefits, we discuss how price optimization may provide unambiguous benefit by achieving a "triple bottom line": personalized pricing enables expanding access, which in turn may lead to gains in welfare due to heterogeneous utility, and improve revenue or budget utilization. We empirically demonstrate the potential benefits of personalized pricing in two settings: pricing subsidies for an elective vaccine, and the effects of personalized interest rates on downstream outcomes in microcredit.
+  },
+  arxiv = {2012.11066}, 
+  selected = {false}
+}
+
+@Article{bao2021complicated,
+  author  = {Bao, Michelle and Zhou, Angela and Zottola, Samantha and Brubach, Brian and Desmarais, Sarah and Horowitz, Aaron and Lum, Kristian and Venkatasubramanian, Suresh},
+  title   = {It's COMPASlicated: The Messy Relationship between RAI Datasets and Algorithmic Fairness Benchmarks},
+  journal = {Advances in Neural Information Processing Systems, Datasets and Benchmarks 2021},
+  year    = {2021},
+  abstract = {Risk assessment instrument (RAI) datasets, particularly ProPublica's COMPAS dataset, are commonly used in algorithmic fairness papers due to benchmarking practices of comparing algorithms on datasets used in prior work. In many cases, this data is used as a benchmark to demonstrate good performance without accounting for the complexities of criminal justice (CJ) processes. We show that pretrial RAI datasets contain numerous measurement biases and errors inherent to CJ pretrial evidence and due to disparities in discretion and deployment, are limited in making claims about real-world outcomes, making the datasets a poor fit for benchmarking under assumptions of ground truth and real-world impact. Conventional practices of simply replicating previous data experiments may implicitly inherit or edify normative positions without explicitly interrogating assumptions. With context of how interdisciplinary fields have engaged in CJ research, algorithmic fairness practices are misaligned for meaningful contribution in the context of CJ, and would benefit from transparent engagement with normative considerations and values related to fairness, justice, and equality. These factors prompt questions about whether benchmarks for intrinsically socio-technical systems like the CJ system can exist in a beneficial and ethical way.
+  },
+  arxiv = {2106.05498}, 
+  selected = {false}
+}
+
+@Article{zhou2021empirical,
+  author  = {Zhou, Angela and Koo, Andrew and Kallus, Nathan and Ropac, Rene and Peterson, Richard and Koppel, Stephen and Bergin, Tiffany},
+  title   = {An Empirical Evaluation of the Impact of New York's Bail Reform on Crime Using Synthetic Controls},
+  journal = {arxiv/SSRN preprint},
+  year    = {2021},
+  abstract = {We conduct an empirical evaluation of the impact of New York's bail reform on crime. New York State's Bail Elimination Act went into effect on January 1, 2020, eliminating money bail and pretrial detention for nearly all misdemeanor and nonviolent felony defendants. Our analysis of effects on aggregate crime rates after the reform informs the understanding of bail reform and general deterrence. We conduct a synthetic control analysis for a comparative case study of impact of bail reform. We focus on synthetic control analysis of post-intervention changes in crime for assault, theft, burglary, robbery, and drug crimes, constructing a dataset from publicly reported crime data of 27 large municipalities. Our findings, including placebo checks and other robustness checks, show that for assault, theft, and drug crimes, there is no significant impact of bail reform on crime; for burglary and robbery, we similarly have null findings but the synthetic control is also more variable so these are deemed less conclusive.
+  },
+  arxiv = {2111.08664}, 
+  selected = {false}
+}
+
+@Article{kallus2022stateful,
+  author  = {Zhou, Angela and Kallus, Nathan},
+  title   = {Stateful Offline Contextual Policy Evaluation and Learning},
+  journal = {Proceedings of The 25nd International Conference on Artificial Intelligence and Statistics},
+  year    = {2022},
+  abstract = {We study off-policy evaluation and learning from sequential data in a structured class of Markov decision processes that arise from repeated interactions with an exogenous sequence of arrivals with contexts, which generate unknown individual-level responses to agent actions. This model can be thought of as an offline generalization of contextual bandits with resource constraints. We formalize the relevant causal structure of problems such as dynamic personalized pricing and other operations management problems in the presence of potentially high-dimensional user types. The key insight is that an individual-level response is often not causally affected by the state variable and can therefore easily be generalized across timesteps and states. When this is true, we study implications for (doubly robust) off-policy evaluation and learning by instead leveraging single time-step evaluation, estimating the expectation over a single arrival via data from a population, for fitted-value iteration in a marginal MDP. We study sample complexity and analyze error amplification that leads to the persistence, rather than attenuation, of confounding error over time. In simulations of dynamic and capacitated pricing, we show improved out-of-sample policy performance in this class of relevant problems.
+  },
+  arxiv = {2110.10081}, 
+  selected = {false}
+}
+
+@Article{guo2022off,
+  author  = {Guo, Wenshuo and Jordan, Michael and Zhou, Angela},
+  title   = {Off-Policy Evaluation with Policy-Dependent Optimization Response},
+  journal = {Neurips},
+  year    = {2022},
+  abstract = {The intersection of causal inference and machine learning for decision-making is rapidly expanding, but the default decision criterion remains an average of individual causal outcomes across a population. In practice, various operational restrictions ensure that a decision-maker's utility is not realized as an average but rather as an output of a downstream decision-making problem (such as matching, assignment, network flow, minimizing predictive risk). In this work, we develop a new framework for off-policy evaluation with a policy-dependent linear optimization response: causal outcomes introduce stochasticity in objective function coefficients. In this framework, a decision-maker's utility depends on the policy-dependent optimization, which introduces a fundamental challenge of optimization bias even for the case of policy evaluation. We construct unbiased estimators for the policy-dependent estimand by a perturbation method. We also discuss the asymptotic variance properties for a set of plug-in regression estimators adjusted to be compatible with that perturbation method. Lastly, attaining unbiased policy evaluation allows for policy optimization, and we provide a general algorithm for optimizing causal interventions. We corroborate our theoretical results with numerical simulations.
+
+  },
+  arxiv = {2202.12958}, 
+  selected = {false}
+}
+
+
+
+
+
+@Comment{jabref-meta: databaseType:bibtex;}
