@@ -26,7 +26,7 @@ I'm happy to chat about possible collaborations. If you are a student at USC, pl
         
 Email: zhoua at usc.edu. 
 
-[[Scholar]](https://scholar.google.com/citations?user=uSO4RPUAAAAJ&hl=en), [[CV]](https://github.com/angelamzhou/cv/blob/master/cv.pdf), [[tw]](https://www.twitter.com/angelamczhou)
+[[Scholar]](https://scholar.google.com/citations?user=uSO4RPUAAAAJ&hl=en), [[CV]](https://github.com/angelamzhou/cv/blob/master/cv.pdf), 
 
 Research: 
 - [Computerized influence functions](https://arxiv.org/abs/2208.13701) for [optimization](https://arxiv.org/pdf/2202.12958)-based estimators in causal inference
