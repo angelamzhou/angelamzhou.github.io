@@ -22,6 +22,7 @@ currently reading:
 - Resisting Reality: Social Construction and Social Critique (Sally Haslanger)
 
 2022
+- The Fires (Joe Flood) 
 - Thinking Like an Economist (Elizabeth Popp Berman)
 - How Civic Action Works: Fighting for Housing in Los Angeles (Paul Lichterman)
 - Creative Quest (Questlove)
