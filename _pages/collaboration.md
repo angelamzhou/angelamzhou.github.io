@@ -21,3 +21,4 @@ Andrew Koo
 Ezinne Nwankwo
 Luyang Zhang
 
+I am also eager to connect with industrial/practice-oriented partners. I am always excited to translate relevant insights from previous research to your specific insights. I have worked in A/B testing at scale in advertising technology. I have also worked in translational collaboration with social impact practitioners (social services/criminal justice).
