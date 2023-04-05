@@ -8,37 +8,6 @@ nav_order: 2
 
 ---
 
-_Recreation_: 
-
-I'm on [Mastodon](https://mastodon.social/@angelamczhou)
-
-I like to keep up with what others are reading. Here's what I'm reading for fun. I'm happy to trade recommendations! 
-
-
-currently reading: 
-- Social Epidemiology (Lisa F. Berkman, Ichiro Kawachi, Maria Glymour (eds.))
-- How We Give Now: A Philanthropic Guide For the Rest of Us (Lucy Bernholz)
-- Democracy's Data (Dan Bouk)
-- Resisting Reality: Social Construction and Social Critique (Sally Haslanger)
-
-2022
-- The Fires (Joe Flood) 
-- Thinking Like an Economist (Elizabeth Popp Berman)
-- How Civic Action Works: Fighting for Housing in Los Angeles (Paul Lichterman)
-- Creative Quest (Questlove)
-- Dilla Time (Dan Charnas)
-- Critique and Praxis (Bernard Harcourt) 
-- Misdemeanorland (Issa Kohler-Hausmann)
-- Administrative Burden :Policymaking by Other Means (By Donald Moynihan and Pamela Herd)
-
-
-
-Perpetually ongoing
-
-- Objectivity [Lorraine Daston]
-
-
-
 
 
 Advice from other people: 
@@ -53,6 +22,8 @@ Advice from other people:
 - [How to build an economic model in your spare time by Hal Varian](https://people.ischool.berkeley.edu/~hal/Papers/how.pdf)
 - [Networking on the Network by Phil Agre](https://homes.cs.washington.edu/~mernst/advice/agre-networking-on-the-network-20050814.html)
 - [Mor Naaman's PhD syllabus](https://stechlab.github.io/phd-syllabus/)
+
+- [sections 3,4: tips for mathematical writing (for homeworks, but useful for communicating more broadly)](https://www.cs.princeton.edu/~smattw/Teaching/cheatsheet445.pdf)
 
 - [Diana Cai's list of funding resources for junior women in stats/ml](https://www.dianacai.com/post/funding/)
 
@@ -73,6 +44,46 @@ Causal inference:
 - [Causal Inference: What if by Miguel Hernan & Jamie Robins](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 - [Causal Inference by Guido Imbens and Donald Rubin](https://www.cambridge.org/core/books/causal-inference-for-statistics-social-and-biomedical-sciences/71126BE90C58F1A431FE9B2DD07938AB)
 - [Metrics lecture notes by Victor Chernozhukov](https://ocw.aprende.org/courses/economics/14-385-nonlinear-econometric-analysis-fall-2007/)
+
+
+_Recreation_: 
+
+I'm on [Mastodon](https://mastodon.social/@angelamczhou)
+
+I like to keep up with what others are reading. Here's what I'm reading for fun. I'm happy to trade recommendations! 
+
+
+currently reading: 
+- Democracy's Data (Dan Bouk)
+- Resisting Reality: Social Construction and Social Critique (Sally Haslanger)
+- How We Give Now: A Philanthropic Guide For the Rest of Us (Lucy Bernholz)
+- From Farm to Canal Street
+
+2023
+- Changing Places: The Science and Art of New Urban Planning
+- The Rhetoric of Economics
+- Social Epidemiology (Lisa F. Berkman, Ichiro Kawachi, Maria Glymour (eds.))
+
+2022
+- Blueprint for Counter Education
+- The Neoliberal City: Governance, Ideology, and Development in American Urbanism
+- The Fires (Joe Flood) 
+- Thinking Like an Economist (Elizabeth Popp Berman)
+- How Civic Action Works: Fighting for Housing in Los Angeles (Paul Lichterman)
+- Creative Quest (Questlove)
+- Dilla Time (Dan Charnas)
+- Critique and Praxis (Bernard Harcourt) 
+- Misdemeanorland (Issa Kohler-Hausmann)
+- Administrative Burden :Policymaking by Other Means (By Donald Moynihan and Pamela Herd)
+
+
+
+Perpetually ongoing
+
+- Objectivity [Lorraine Daston]
+
+
+
 
 
 
