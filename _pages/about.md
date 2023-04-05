@@ -21,8 +21,6 @@ I am an Assistant Professor at USC Marshall Data Sciences and Operations, in the
 Previously I was a research fellow at the Simons program on causality, a FODSI postdoc at UC Berkeley, hosted by Bin Yu, and Michael I. Jordan. I obtained my PhD from Cornell University in [Operations Research and Information Engineering](http://www.orie.cornell.edu) working with [Nathan Kallus](nathankallus.com) at Cornell Tech. My work was previously supported on a NDSEG fellowship.
 
 My research interests are broadly in data-driven decision making under uncertainty, including operations, statistical machine learning, and causal inference, and the interplay of statistics and optimization. 
-
-I'm happy to chat about possible collaborations. If you are a student at USC, please feel free to email me (and check with your advisor). If you are interested in becoming a PhD student at USC, please apply to the [Data Sciences and Operations PhD program](https://www.marshall.usc.edu/programs/phd-program/departments/data-sciences-and-operations) if you'd like to work with me.  
         
 Email: zhoua at usc.edu. 
 
@@ -30,5 +28,5 @@ Email: zhoua at usc.edu.
 
 Research: 
 - [Computerized influence functions](https://arxiv.org/abs/2208.13701) for [optimization](https://arxiv.org/pdf/2202.12958)-based estimators in causal inference
-- Credible causal inference for [optimal decisions](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3699) and [bounds](https://arxiv.org/abs/1810.02894); and [for infinite-horizon offline reinforcement learning](https://arxiv.org/abs/2002.04518) under violations of assumptions 
+- Credible causal inference for [optimal decisions](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3699) and [bounds](https://arxiv.org/abs/1810.02894); and [for infinite-horizon](https://arxiv.org/abs/2002.04518) and [finite horizon (scalable)](https://arxiv.org/abs/2302.00662) offline reinforcement learning under violations of assumptions 
 - Algorithmic fairness: [biased data](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:u5HHmVD_uO8C), [partial identification bounds](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:IjCSPb-OGe4C) on [causal disparities](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:zYLM7Y9cAGgC). Substantive: [don't use CJ data for ML benchmarks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:0EnyYjriUFMC), evaluating [short term impacts of bail reform on aggregate crime.](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:hqOjcs7Dif8C)
