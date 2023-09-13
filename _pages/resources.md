@@ -67,6 +67,7 @@ currently reading:
 - Marc Aidinoff's dissertation (@ paris)
 - From Welfare to Work (on a plane to montreal)
 - Fighting for Reliable Evidence (on a plane)
+- The Dynamics of Performance Management: Constructing Information and Reform
 - Changing Places: The Science and Art of New Urban Planning (at LASHP)
 - The Rhetoric of Economics (at LASHP)
 - Social Epidemiology (Lisa F. Berkman, Ichiro Kawachi, Maria Glymour (eds.)) (at LASHP)
