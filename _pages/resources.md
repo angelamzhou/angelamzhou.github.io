@@ -15,7 +15,7 @@ Advice from other people:
 - [You and Your Research; Hamming](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
 - [Ten Simple Rules for Mathematical Writing](https://www.mit.edu/~dimitrib/Ten_Rules.html)
 
-
+- [Paths to Research: Christohper Thomas Ryan and Runshan Fu](https://christopher-thomas-ryan.github.io/papers/Paths_to_Research.pdf)
 - [Aaditya Ramdas – Checklists for Stat-ML PhD students](https://www.stat.cmu.edu/~aramdas/checklists.html)
 - [Terence Tao's career advice](https://terrytao.wordpress.com/career-advice/)
 - [Michael Steele's advice for statistics phd students](http://www-stat.wharton.upenn.edu/~steele/Rants/AdviceGS.html)
@@ -62,24 +62,24 @@ currently reading:
 
 
 2023
-- A Civic Technologist's Practice Guide
-- Recoding America
-- Marc Aidinoff's dissertation 
-- From Welfare to Work 
-- Fighting for Reliable Evidence 
-- Changing Places: The Science and Art of New Urban Planning
-- The Rhetoric of Economics
-- Social Epidemiology (Lisa F. Berkman, Ichiro Kawachi, Maria Glymour (eds.))
+- A Civic Technologist's Practice Guide (on drives between la & sd)
+- Recoding America (on drives between la & sd)
+- Marc Aidinoff's dissertation (@ paris)
+- From Welfare to Work (on a plane to montreal)
+- Fighting for Reliable Evidence (on a plane)
+- Changing Places: The Science and Art of New Urban Planning (at LASHP)
+- The Rhetoric of Economics (at LASHP)
+- Social Epidemiology (Lisa F. Berkman, Ichiro Kawachi, Maria Glymour (eds.)) (at LASHP)
 
 2022
-- Blueprint for Counter Education
+- Blueprint for Counter Education (from heavy manners) 
 - The Neoliberal City: Governance, Ideology, and Development in American Urbanism
-- The Fires (Joe Flood) 
+- The Fires (Joe Flood) (at LASHP)
 - Thinking Like an Economist (Elizabeth Popp Berman)
 - How Civic Action Works: Fighting for Housing in Los Angeles (Paul Lichterman)
 - Creative Quest (Questlove)
-- Dilla Time (Dan Charnas)
-- Critique and Praxis (Bernard Harcourt) 
+- Dilla Time (Dan Charnas) (@ nyc)
+- Critique and Praxis (Bernard Harcourt) (from moe's books)
 - Misdemeanorland (Issa Kohler-Hausmann)
 - Administrative Burden :Policymaking by Other Means (By Donald Moynihan and Pamela Herd)
 
