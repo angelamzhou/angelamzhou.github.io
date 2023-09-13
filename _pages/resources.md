@@ -58,8 +58,15 @@ currently reading:
 - Resisting Reality: Social Construction and Social Critique (Sally Haslanger)
 - How We Give Now: A Philanthropic Guide For the Rest of Us (Lucy Bernholz)
 - From Farm to Canal Street
+- The Performance of Performance Standards
+
 
 2023
+- A Civic Technologist's Practice Guide
+- Recoding America
+- Marc Aidinoff's dissertation 
+- From Welfare to Work 
+- Fighting for Reliable Evidence 
 - Changing Places: The Science and Art of New Urban Planning
 - The Rhetoric of Economics
 - Social Epidemiology (Lisa F. Berkman, Ichiro Kawachi, Maria Glymour (eds.))
