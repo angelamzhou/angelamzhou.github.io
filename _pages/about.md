@@ -26,7 +26,9 @@ Email: zhoua at usc.edu.
 
 [[Scholar]](https://scholar.google.com/citations?user=uSO4RPUAAAAJ&hl=en), [[CV]](https://github.com/angelamzhou/cv/blob/master/cv.pdf), 
 
-Research: 
+Research interests by topic: 
 - [Computerized influence functions](https://arxiv.org/abs/2208.13701) for [optimization](https://arxiv.org/pdf/2202.12958)-based estimators in causal inference
+- Program evaluation perspective on algorithmic accountability; equity and efficacy in the provision of social services: [fair/optimal encouragement designs](https://arxiv.org/abs/2309.07176
+)
 - Credible causal inference for [optimal decisions](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2020.3699) and [bounds](https://arxiv.org/abs/1810.02894); and [for infinite-horizon](https://arxiv.org/abs/2002.04518) and [finite horizon (scalable)](https://arxiv.org/abs/2302.00662) offline reinforcement learning under violations of assumptions 
 - Algorithmic fairness: [biased data](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:u5HHmVD_uO8C), [partial identification bounds](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:IjCSPb-OGe4C) on [causal disparities](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:zYLM7Y9cAGgC). Substantive: [don't use CJ data for ML benchmarks](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:0EnyYjriUFMC), evaluating [short term impacts of bail reform on aggregate crime.](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSO4RPUAAAAJ&sortby=pubdate&citation_for_view=uSO4RPUAAAAJ:hqOjcs7Dif8C)
