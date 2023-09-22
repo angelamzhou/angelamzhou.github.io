@@ -18,7 +18,6 @@
   author  = {Jordan, Michael and Wang, Yixin and Zhou, Angela},
   title   = {Data-Driven Influence Functions for Causal Inference and Optimization-Based Estimators},
   journal = {Supersedes Empirical Gateaux Derivatives for Causal Inference (oral at Neurips 2022) },
-  year    = {2022},
   abstract = {We study a constructive algorithm that approximates Gateaux derivatives for statistical functionals by finite-differencing, with a focus on causal inference functionals. We consider the case where probability distributions are not known a priori but also need to be estimated from data. These estimated distributions lead to empirical Gateaux derivatives, and we study the relationships between empirical, numerical, and analytical Gateaux derivatives. Starting with a case study of counterfactual mean estimation, we instantiate the exact relationship between finite-differences and the analytical Gateaux derivative. We then derive requirements on the rates of numerical approximation in perturbation and smoothing that preserve the statistical benefits of one-step adjustments, such as rate-double-robustness. We then study more complicated functionals such as dynamic treatment regimes and the linear-programming formulation for policy optimization in infinite-horizon Markov decision processes. The newfound ability to approximate bias adjustments in the presence of arbitrary constraints illustrates the usefulness of constructive approaches for Gateaux derivatives. We also find that the statistical structure of the functional (rate-double robustness) can permit less conservative rates of finite-difference approximation. This property, however, can be specific to particular functionals, e.g. it occurs for the counterfactual mean but not the infinite-horizon MDP policy value.
   },
   arxiv = {2208.13701}, 
@@ -26,12 +25,30 @@
   selected = {true}
 }
 
+@article{bruns2023robust,
+  title={Robust Fitted-Q-Evaluation and Iteration under Sequentially Exogenous Unobserved Confounders},
+  author={Bruns-Smith, David and Zhou, Angela},
+  abstract = {Offline reinforcement learning is important in domains such as medicine, economics, and e-commerce where online experimentation is costly, dangerous or unethical, and where the true model is unknown. However, most methods assume all covariates used in the behavior policy's action decisions are observed. This untestable assumption may be incorrect. We study robust policy evaluation and policy optimization in the presence of unobserved confounders. We assume the extent of possible unobserved confounding can be bounded by a sensitivity model, and that the unobserved confounders are sequentially exogenous. We propose and analyze an (orthogonalized) robust fitted-Q-iteration that uses closed-form solutions of the robust Bellman operator to derive a loss minimization problem for the robust Q function. Our algorithm enjoys the computational ease of fitted-Q-iteration and statistical improvements (reduced dependence on quantile estimation error) from orthogonalization. We provide sample complexity bounds, insights, and show effectiveness in simulations.
+}, 
+  arxiv={2302.00662},
+  year={2023},
+  url={https://github.com/angelamzhou/preprints/blob/main/robust_fqi.pdf},
+  selected={true}
+}
 
+@article{sumida2023optimizing,
+  title={Optimizing and Learning Sequential Assortment Decisions with Platform Disengagement},
+  author={Sumida, Mika and Zhou, Angela},
+  abstract = {We consider a problem where customers repeatedly interact with a platform. During each interaction with the platform, the customer is shown an assortment of items and selects among these items according to a Multinomial Logit choice model. The probability that a customer interacts with the platform in the next period depends on the customer's past purchase history. The goal of the platform is to maximize the total revenue obtained from each customer over a finite time horizon. First, we study a non-learning version of the problem where consumer preferences are completely known. We formulate the problem as a dynamic program and prove structural properties of the optimal policy. Next, we provide a formulation in a contextual episodic reinforcement learning setting, where the parameters governing contextual consumer preferences and return probabilities are unknown and learned over multiple episodes. We develop an algorithm based on the principle of optimism under uncertainty for this problem and provide a regret bound. We numerically illustrate model insights and evaluate effectiveness on simulations, parametrized by real data from Expedia, where the algorithm outperforms naively myopic learning algorithms. 
+}, 
+  pdf={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4537925},
+  year={2023},
+  selected={true}
+}
 @article{kallus2020minimax,
   title={Minimax-Optimal Policy Learning under Unobserved Confounding},
   author={Kallus, Nathan and Zhou, Angela},
-  journal={Management Science (Forthcoming), supersedes Neurips 2018 version},
-  year={2020},
+  journal={Management Science (2021), supersedes Neurips 2018 version},
   abstract={We study the problem of learning personalized decision policies from observational data while accounting for possible unobserved confounding in the data-generating process. Unlike previous approaches that assume unconfoundedness, ie, no unobserved confounders affected both treatment assignment and outcomes, we calibrate policy learning for realistic violations of this unverifiable assumption with uncertainty sets motivated by sensitivity analysis in causal inference. Our framework for confounding-robust policy improvement optimizes the minimax regret of a candidate policy against a baseline or reference" status quo" policy, over an uncertainty set around nominal propensity weights. We prove that if the uncertainty set is well-specified, robust policy learning can do no worse than the baseline, and only improve if the data supports it. We characterize the adversarial subproblem and use efficient algorithmic solutions to optimize over parametrized spaces of decision policies such as logistic treatment assignment. We assess our methods on synthetic data and a large clinical trial, demonstrating that confounded selection can hinder policy learning and lead to unwarranted harm, while our robust approach guarantees safety and focuses on well-evidenced improvement.
 },
 code={https://github.com/CausalML/confounding-robust-policy-improvement},
@@ -103,8 +120,7 @@ video={https://www.youtube.com/watch?v=4MRqoUmeebw},
 @Article{kallus2019assessing,
   author   = {Kallus, Nathan and Mao, Xiaojie and Zhou, Angela},
   title    = {Assessing algorithmic fairness with unobserved protected class using data combination},
-  journal  = {Management Science (Forthcoming). A preliminary version appeared at FaCCT 2020},
-  year     = {2019},
+  journal  = {Management Science (2020). A preliminary version appeared at FaCCT 2020},
   abstract = {The increasing impact of algorithmic decisions on people's lives compels us to scrutinize their fairness and, in particular, the disparate impacts that ostensibly-color-blind algorithms can have on different groups. Examples include credit decisioning, hiring, advertising, criminal justice, personalized medicine, and targeted policymaking, where in some cases legislative or regulatory frameworks for fairness exist and define specific protected classes. In this paper we study a fundamental challenge to assessing disparate impacts in practice: protected class membership is often not observed in the data. This is particularly a problem in lending and healthcare. We consider the use of an auxiliary dataset, such as the US census, that includes class labels but not decisions or outcomes. We show that a variety of common disparity measures are generally unidentifiable aside for some unrealistic cases, providing a new perspective on the documented biases of popular proxy-based methods. We provide exact characterizations of the sharpest-possible partial identification set of disparities either under no assumptions or when we incorporate mild smoothness constraints. We further provide optimization-based algorithms for computing and visualizing these sets, which enables reliable and robust assessments--an important tool when disparity assessment can have far-reaching policy implications. We demonstrate this in two case studies with real data: mortgage lending and personalized medicine dosing.
 },
   arxiv    = {1906.00285},
@@ -197,26 +213,7 @@ video={https://www.youtube.com/watch?v=4MRqoUmeebw},
   selected = {false}
 }
 
-@article{bruns2023robust,
-  title={Robust Fitted-Q-Evaluation and Iteration under Sequentially Exogenous Unobserved Confounders},
-  author={Bruns-Smith, David and Zhou, Angela},
-  abstract = {Offline reinforcement learning is important in domains such as medicine, economics, and e-commerce where online experimentation is costly, dangerous or unethical, and where the true model is unknown. However, most methods assume all covariates used in the behavior policy's action decisions are observed. This untestable assumption may be incorrect. We study robust policy evaluation and policy optimization in the presence of unobserved confounders. We assume the extent of possible unobserved confounding can be bounded by a sensitivity model, and that the unobserved confounders are sequentially exogenous. We propose and analyze an (orthogonalized) robust fitted-Q-iteration that uses closed-form solutions of the robust Bellman operator to derive a loss minimization problem for the robust Q function. Our algorithm enjoys the computational ease of fitted-Q-iteration and statistical improvements (reduced dependence on quantile estimation error) from orthogonalization. We provide sample complexity bounds, insights, and show effectiveness in simulations.
-}, 
-  arxiv={2302.00662},
-  year={2023},
-  url={https://github.com/angelamzhou/preprints/blob/main/robust_fqi.pdf},
-  selected={true}
-}
 
-@article{sumida2023optimizing,
-  title={Optimizing and Learning Sequential Assortment Decisions with Platform Disengagement},
-  author={Sumida, Mika and Zhou, Angela},
-  abstract = {We consider a problem where customers repeatedly interact with a platform. During each interaction with the platform, the customer is shown an assortment of items and selects among these items according to a Multinomial Logit choice model. The probability that a customer interacts with the platform in the next period depends on the customer's past purchase history. The goal of the platform is to maximize the total revenue obtained from each customer over a finite time horizon. First, we study a non-learning version of the problem where consumer preferences are completely known. We formulate the problem as a dynamic program and prove structural properties of the optimal policy. Next, we provide a formulation in a contextual episodic reinforcement learning setting, where the parameters governing contextual consumer preferences and return probabilities are unknown and learned over multiple episodes. We develop an algorithm based on the principle of optimism under uncertainty for this problem and provide a regret bound. We numerically illustrate model insights and evaluate effectiveness on simulations, parametrized by real data from Expedia, where the algorithm outperforms naively myopic learning algorithms. 
-}, 
-  pdf={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4537925},
-  year={2023},
-  selected={true}
-}
 
 @article{zhoua2023optimal,
   title={Optimal and Fair Encouragement Policy Evaluation and Learning},
