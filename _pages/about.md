@@ -26,7 +26,7 @@ Email: zhoua at usc.edu.
 
 [[Scholar]](https://scholar.google.com/citations?user=uSO4RPUAAAAJ&hl=en), [[CV]](https://github.com/angelamzhou/cv/blob/master/cv.pdf), 
 
-Interested in working with me? [[Advising/mentorship plan and FAQ]](https://docs.google.com/document/d/1DWnH3pAy6X3I3p39qakmybpoThDOrcm73iaPShRwHkQ/edit?usp=sharing) 
+Interested in working with me? [Advising/mentorship plan and FAQ](https://docs.google.com/document/d/1DWnH3pAy6X3I3p39qakmybpoThDOrcm73iaPShRwHkQ/edit?usp=sharing) 
 
 Research interests by topic: 
 - [Computerized influence functions](https://arxiv.org/abs/2208.13701) for [optimization](https://arxiv.org/pdf/2202.12958)-based estimators in causal inference
