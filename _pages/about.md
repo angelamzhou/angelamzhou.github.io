@@ -18,13 +18,15 @@ social: true  # includes social icons at the bottom of the page
 
 I am an Assistant Professor at USC Marshall Data Sciences and Operations, in the Operations group. 
 
-Previously I was a research fellow at the Simons program on causality, a FODSI postdoc at UC Berkeley, hosted by Bin Yu, and Michael I. Jordan. I obtained my PhD from Cornell University in [Operations Research and Information Engineering](http://www.orie.cornell.edu) working with [Nathan Kallus](nathankallus.com) at Cornell Tech. My work was previously supported on a NDSEG fellowship.
+Previously I was a research fellow at the Simons program on causality and a FODSI postdoc at UC Berkeley. I obtained my PhD from Cornell University in [Operations Research and Information Engineering](http://www.orie.cornell.edu) working with [Nathan Kallus](nathankallus.com) at Cornell Tech. My work was previously supported on a NDSEG fellowship.
 
 My research interests are broadly in data-driven decision making under uncertainty, including operations, statistical machine learning, and causal inference, and the interplay of statistics and optimization. 
         
 Email: zhoua at usc.edu. 
 
 [[Scholar]](https://scholar.google.com/citations?user=uSO4RPUAAAAJ&hl=en), [[CV]](https://github.com/angelamzhou/cv/blob/master/cv.pdf), 
+
+Interested in working with me? [[Advising/mentorship plan and FAQ]](https://docs.google.com/document/d/1DWnH3pAy6X3I3p39qakmybpoThDOrcm73iaPShRwHkQ/edit?usp=sharing) 
 
 Research interests by topic: 
 - [Computerized influence functions](https://arxiv.org/abs/2208.13701) for [optimization](https://arxiv.org/pdf/2202.12958)-based estimators in causal inference
