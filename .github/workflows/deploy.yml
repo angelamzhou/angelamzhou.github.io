@@ -21,8 +21,13 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
+    - name: Clean bundler environment
+      run: |
+        rm -rf vendor/bundle
+        bundle config --delete without || true
     - name: Install deps
       run: |
+	bundle install
         npm install -g mermaid.cli
     - name: Setup deploy options
       id: setup
