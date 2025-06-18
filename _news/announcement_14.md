@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-01-19 15:59:00-0400
+date: 2025-02-17 15:59:00-0400
 inline: true
 ---
 
-My paper on Reward-Relevant-Filtered Linear Offline Reinforcement learning was accepted at AISTATS 2024! (journal version under preparation)
+We have exciting new work on optimally annotating outcomes for doubly-robust causal inference, motivated by an ongoing collaboration in homelessness services. It works really well! [paper](https://arxiv.org/pdf/2502.10605)
