@@ -231,22 +231,7 @@ video={https://www.youtube.com/watch?v=4MRqoUmeebw},
 @article{zhoua2024reward,
   title={Reward-Relevance-Filtered Linear Offline Reinforcement Learning},
   author={Zhou, Angela},
-  abstract = {This paper studies offline reinforcement
-learning with linear function approximation in a setting with decision-theoretic,
-but not estimation sparsity. The structural
-restrictions of the data-generating process
-presume that the transitions factor into a
-sparse component that affects the reward
-and could affect additional exogenous dynamics that do not affect the reward. Although the minimally sufficient adjustment
-set for estimation of full-state transition
-properties depends on the whole state, the
-optimal policy and therefore state-action
-value function depends only on the sparse
-component: we call this causal/decisiontheoretic sparsity. We develop a method for
-reward-filtering the estimation of the stateaction value function to the sparse component by a modification of thresholded lasso
-in least-squares policy evaluation. We provide theoretical guarantees for our rewardfiltered linear fitted-Q-iteration, with sample complexity depending only on the size
-of the sparse component.
-}, 
+  abstract = {This paper studies offline reinforcement learning with linear function approximation in a setting with decision-theoretic, but not estimation sparsity. The structural restrictions of the data-generating process presume that the transitions factor into a sparse component that affects the reward and could affect additional exogenous dynamics that do not affect the reward. Although the minimally sufficient adjustment set for estimation of full-state transition probabilities depends on the whole state, the optimal policy and therefore state-action value function depends only on the sparse component: we call this causal/decisiontheoretic sparsity. We develop a method for reward-filtering the estimation of the state-action value function to the sparse component by a modification of thresholded lasso in least-squares policy evaluation. We provide theoretical guarantees for our reward-filtered linear fitted-Q-iteration, with sample complexity depending only on the size of the sparse component.}, 
   pdf={https://github.com/angelamzhou/preprints/blob/main/structure_in_reinforcement_learning_preprint.pdf},
   year={2024},
   selected={false},
@@ -255,7 +240,39 @@ of the sparse component.
 }
 
 
+@article{kern2024multi,
+  title={Multi-accurate CATE is robust to unknown covariate shifts},
+  author={Kern, Christoph and Kim, Michael P and Zhou, Angela},
+  journal={Transactions on Machine Learning Research},
+  year={2024}, 
+  selected={false},
+  abstract={Estimating heterogeneous treatment effects is important to tailor treatments to those individuals who would most likely benefit. However, conditional average treatment effect predictors may often be trained on one population but possibly deployed on different, possibly unknown populations. We use methodology for learning multi-accurate predictors to post-process CATE T-learners (differenced regressions) to become robust to unknown covariate shifts at the time of deployment. The method works in general for pseudo-outcome regression, such as the DR-learner. We show how this approach can combine (large) confounded observational and (smaller) randomized datasets by learning a confounded predictor from the observational dataset, and auditing for multi-accuracy on the randomized controlled trial. We show improvements in bias and mean squared error in simulations with increasingly larger covariate shift, and on a semi-synthetic case study of a parallel large observational study and smaller randomized controlled experiment. Overall, we establish a connection between methods developed for multi-distribution learning and achieve appealing desiderata (e.g. external validity) in causal inference and machine learning.
+},
+pdf={https://openreview.net/pdf?id=VOGlTb27ob},
+}
 
+@article{nwankwo2025batch,
+  title={Batch-Adaptive Annotations for Causal Inference with Complex-Embedded Outcomes},
+  author={Nwankwo, Ezinne and Goldkind, Lauri and Zhou, Angela},
+  journal={arXiv preprint arXiv:2502.10605},
+  year={2025},
+  abstract={Estimating the causal effects of an intervention on outcomes is crucial to policy and decision-making. But often, information about outcomes can be missing or subject to non-standard measurement error. It may be possible to reveal ground-truth outcome information at a cost, for example via data annotation or follow-up; but budget constraints entail that only a fraction of the dataset can be labeled. In this setting, we optimize which data points should be sampled for outcome information and, therefore, efficient average treatment effect estimation with missing data. We do so by allocating data annotation in batches. We extend to settings where outcomes may be recorded in unstructured data that can be annotated at a cost, such as text or images, for example, in healthcare or social services. Our motivating application is a collaboration with a street outreach provider with millions of case notes, where it is possible to expertly label some, but not all, ground-truth outcomes. We demonstrate how expert labels and noisy imputed labels can be combined efficiently and responsibly into a doubly robust causal estimator. We run experiments on simulated data and two real-world datasets, including one on street outreach interventions in homelessness services, to show the versatility of our proposed method.
+}, 
+pdf={https://arxiv.org/pdf/2502.10605},
+selected={true},
+}
+
+
+@article{nwankwo2025batch,
+  title={Bridging Prediction and Intervention Problems in Social Systems},
+  author={many},
+  year={2025},
+  abstract={Many of the applications of algorithmic decision support (ADS) are often framed as isolated prediction problems -- with the goal of capturing relevant information about one sample of the population and extrapolating those learned patterns to any another relevant sample within the same population. However, in reality, ADS systems actually operate more like holistic policy interventions once deployed. On the one hand, the predictions of ADS are deeply informed and influenced by interactions between various stakeholders and existing infrastructure. On the other hand, various deployment factors shape the impact of the model's use in existing decision-making processes, which in turn contributes directly to downstream consequences. 
+In this whitepaper, we re-visit the limitations of relying on the prediction paradigm description of machine learning to describe its design, development and influence within social systems. Offering statistical frameworks and tools to analyze the impact of ADS model beyond its prediction outcomes, we explore alternative views of adopting a more intervention-based lens to machine learning design, development and evaluation. 
+}, 
+pdf={https://drive.google.com/file/d/1_1syo90CI23vDtSFvKXN8NoYMZMHcDNW/view?usp=share_link},
+selected={true},
+}
 
 
 

@@ -28,6 +28,8 @@ Email: zhoua at usc.edu.
 
 Interested in working with me? [Advising/mentorship plan and FAQ](https://docs.google.com/document/d/1DWnH3pAy6X3I3p39qakmybpoThDOrcm73iaPShRwHkQ/edit?usp=sharing) 
 
+Here at USC 
+
 Research interests by topic: 
 - [Computerized influence functions](https://arxiv.org/abs/2208.13701) for [optimization](https://arxiv.org/pdf/2202.12958)-based estimators in causal inference
 - Program evaluation perspective on algorithmic accountability; equity and efficacy in the provision of social services: [fair/optimal encouragement designs](https://arxiv.org/abs/2309.07176
