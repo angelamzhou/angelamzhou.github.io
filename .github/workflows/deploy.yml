@@ -27,7 +27,7 @@ jobs:
         bundle config --delete without || true
     - name: Install deps
       run: |
-	bundle install
+        bundle install
         npm install -g mermaid.cli
     - name: Setup deploy options
       id: setup
