@@ -24,7 +24,12 @@ jobs:
     - name: Clean bundler environment
       run: |
         rm -rf vendor/bundle
+        rm -rf .bundle
         bundle config --delete without || true
+        bundle config --delete path || true
+
+    - name: Configure bundler for Ruby platform
+      run: bundle config set --local force_ruby_platform true
     - name: Install deps
       run: |
         bundle install
