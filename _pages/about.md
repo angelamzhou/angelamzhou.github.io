@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor at USC Marshall Data Sciences and Operations, in the Operations group. 
+I am an Assistant Professor at USC Marshall Data Sciences and Operations and Computer Science (by courtesy). I am in the Operations group. 
 
 Previously I was a research fellow at the Simons program on causality and a FODSI postdoc at UC Berkeley. I obtained my PhD from Cornell University in [Operations Research and Information Engineering](http://www.orie.cornell.edu) working with [Nathan Kallus](nathankallus.com) at Cornell Tech. My work was previously supported on a NDSEG fellowship.
 
