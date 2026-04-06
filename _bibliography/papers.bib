@@ -251,11 +251,22 @@ video={https://www.youtube.com/watch?v=4MRqoUmeebw},
 pdf={https://openreview.net/pdf?id=VOGlTb27ob},
 }
 
+@article{cao2024structured,
+  title={Structured Difference-of-Q via Orthogonal Learning},
+  author={Cao, Defu and Zhou, Angela},
+  journal={AISTATS},
+  year={2026},
+  abstract={Offline reinforcement learning is important in settings with observational data but where deploying new policies online is infeasible due to safety, cost, or other constraints. Recent advances in causal inference and machine learning often target causal contrast functions such as the conditional average treatment effect, which is sufficient for optimizing decisions and can exploit smoother structure. We develop a dynamic generalization of the R-learner for estimating and optimizing differences of Q-functions, which can be used to optimize multi-valued actions. The method leverages orthogonal estimation to improve convergence rates in the presence of slower nuisance estimation and proves consistency of policy optimization under a margin condition. It can use black-box nuisance estimators of the Q-function and behavior policy while targeting a more structured Q-function contrast.},
+  arxiv={2406.08697},
+  url={https://arxiv.org/abs/2406.08697},
+  selected={false},
+}
+
 @article{nwankwo2025batch,
   title={Batch-Adaptive Annotations for Causal Inference with Complex-Embedded Outcomes},
   author={Nwankwo, Ezinne and Goldkind, Lauri and Zhou, Angela},
-  journal={arXiv preprint arXiv:2502.10605},
-  year={2025},
+  journal={AISTATS},
+  year={2026},
   abstract={Estimating the causal effects of an intervention on outcomes is crucial to policy and decision-making. But often, information about outcomes can be missing or subject to non-standard measurement error. It may be possible to reveal ground-truth outcome information at a cost, for example via data annotation or follow-up; but budget constraints entail that only a fraction of the dataset can be labeled. In this setting, we optimize which data points should be sampled for outcome information and, therefore, efficient average treatment effect estimation with missing data. We do so by allocating data annotation in batches. We extend to settings where outcomes may be recorded in unstructured data that can be annotated at a cost, such as text or images, for example, in healthcare or social services. Our motivating application is a collaboration with a street outreach provider with millions of case notes, where it is possible to expertly label some, but not all, ground-truth outcomes. We demonstrate how expert labels and noisy imputed labels can be combined efficiently and responsibly into a doubly robust causal estimator. We run experiments on simulated data and two real-world datasets, including one on street outreach interventions in homelessness services, to show the versatility of our proposed method.
 }, 
 pdf={https://arxiv.org/pdf/2502.10605},
@@ -265,13 +276,24 @@ selected={true},
 
 @article{brips,
   title={Bridging Prediction and Intervention Problems in Social Systems},
-  author={author = { Liu, Lydia and Raji, Deb and Zhou, Angela and Guerdan, Luke and Hullman, Jessica and Wilder, Bryan and Zhang, Simone and Adam, Hammaad and Coston, Amanda and Laufer, Ben and Malinsky, Daniel and Nwankwo, Ezinne and Zangler-Tishler, Michael and Imai, Kosuke and Wang, Angelina and Kapoor, Sayash and Loftus, Joshua and Sendak, Mark and Wilson, Ashia and Ben-Michael, Eli and Tolbert, Alexander and Nabi, Razieh and Guha, Shion and Salganik, Matt and Narayanan, Arvind}},
+  author={author = {Liu, Lydia and Raji, Deb and Zhou, Angela and Guerdan, Luke and Hullman, Jessica and Wilder, Bryan and Zhang, Simone and Adam, Hammaad and Coston, Amanda and Laufer, Ben and Malinsky, Daniel and Nwankwo, Ezinne and Zangler-Tishler, Michael and Imai, Kosuke and Wang, Angelina and Kapoor, Sayash and Loftus, Joshua and Sendak, Mark and Wilson, Ashia and Ben-Michael, Eli and Tolbert, Alexander and Nabi, Razieh and Guha, Shion and Salganik, Matt and Narayanan, Arvind}},
   year={2025},
   abstract={Many of the applications of algorithmic decision support (ADS) are often framed as isolated prediction problems -- with the goal of capturing relevant information about one sample of the population and extrapolating those learned patterns to any another relevant sample within the same population. However, in reality, ADS systems actually operate more like holistic policy interventions once deployed. On the one hand, the predictions of ADS are deeply informed and influenced by interactions between various stakeholders and existing infrastructure. On the other hand, various deployment factors shape the impact of the model's use in existing decision-making processes, which in turn contributes directly to downstream consequences. 
 In this whitepaper, we re-visit the limitations of relying on the prediction paradigm description of machine learning to describe its design, development and influence within social systems. Offering statistical frameworks and tools to analyze the impact of ADS model beyond its prediction outcomes, we explore alternative views of adopting a more intervention-based lens to machine learning design, development and evaluation. 
 }, 
 pdf={https://drive.google.com/file/d/1_1syo90CI23vDtSFvKXN8NoYMZMHcDNW/view?usp=share_link},
 selected={true},
+}
+
+@article{wilder2025fostering,
+  title={Fostering the Ecosystem of AI for Social Impact Requires Expanding and Strengthening Evaluation Standards},
+  author={Wilder, Bryan and Zhou, Angela},
+  journal={NeurIPS Position Paper Track},
+  year={2025},
+  abstract={There has been increasing research interest in AI and machine learning for social impact, and correspondingly more publication venues have refined review criteria for practice-driven research. However, these guidelines tend to most concretely recognize projects that simultaneously achieve deployment and novel methodological innovation. We argue that this creates incentives that undermine the sustainability of a broader social-impact research ecosystem, which benefits from projects that contribute on a single front, whether applied or methodological, in ways that may better meet partner needs. Our position is that researchers and reviewers in machine learning for social impact must simultaneously adopt a more expansive conception of social impact beyond deployment and more rigorous evaluations of the impact of deployed systems.},
+  arxiv={2510.18238},
+  url={https://arxiv.org/abs/2510.18238},
+  selected={false},
 }
 
 
