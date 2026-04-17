@@ -1,0 +1,60 @@
+name: sync-cv-from-overleaf
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 15 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-cv-from-overleaf
+  cancel-in-progress: false
+
+jobs:
+  sync-cv:
+    runs-on: ubuntu-latest
+    env:
+      OVERLEAF_PROJECT_ID: ${{ secrets.OVERLEAF_PROJECT_ID }}
+      OVERLEAF_GIT_TOKEN: ${{ secrets.OVERLEAF_GIT_TOKEN }}
+      OVERLEAF_MAIN_TEX: ${{ vars.OVERLEAF_MAIN_TEX }}
+      CV_TARGET_PATH: assets/pdf/cv.pdf
+    steps:
+      - name: Checkout site
+        uses: actions/checkout@v4
+
+      - name: Validate sync settings
+        run: |
+          test -n "$OVERLEAF_PROJECT_ID" || { echo "Missing secret OVERLEAF_PROJECT_ID"; exit 1; }
+          test -n "$OVERLEAF_GIT_TOKEN" || { echo "Missing secret OVERLEAF_GIT_TOKEN"; exit 1; }
+          test -n "$OVERLEAF_MAIN_TEX" || { echo "Missing variable OVERLEAF_MAIN_TEX"; exit 1; }
+
+      - name: Clone Overleaf project
+        run: |
+          git clone "https://git:${OVERLEAF_GIT_TOKEN}@git.overleaf.com/${OVERLEAF_PROJECT_ID}" overleaf-cv
+
+      - name: Compile CV PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: overleaf-cv
+          root_file: ${{ env.OVERLEAF_MAIN_TEX }}
+
+      - name: Copy compiled PDF into site
+        run: |
+          source_pdf="overleaf-cv/${OVERLEAF_MAIN_TEX%.tex}.pdf"
+          test -f "$source_pdf" || { echo "Expected PDF not found: $source_pdf"; exit 1; }
+          cp "$source_pdf" "$CV_TARGET_PATH"
+
+      - name: Commit updated PDF
+        run: |
+          if git diff --quiet -- "$CV_TARGET_PATH"; then
+            echo "No PDF changes to commit."
+            exit 0
+          fi
+
+          git config user.name "GitHub Actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$CV_TARGET_PATH"
+          git commit -m "Update CV PDF from Overleaf"
+          git push
