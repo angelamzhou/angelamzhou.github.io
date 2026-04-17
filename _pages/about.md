@@ -18,9 +18,11 @@ social: true  # includes social icons at the bottom of the page
 
 I am an Assistant Professor at USC Marshall Data Sciences and Operations and Computer Science (by courtesy). I am in the Operations group. 
 
-Previously I was a research fellow at the Simons program on causality and a FODSI postdoc at UC Berkeley. I obtained my PhD from Cornell University in [Operations Research and Information Engineering](http://www.orie.cornell.edu) working with [Nathan Kallus](nathankallus.com) at Cornell Tech. My work was previously supported on a NDSEG fellowship.
+My research interests are broadly in data-driven decision making under uncertainty, including operations, statistical machine learning, and causal inference, and the interplay of statistics and optimization.
 
-My research interests are broadly in data-driven decision making under uncertainty, including operations, statistical machine learning, and causal inference, and the interplay of statistics and optimization. 
+In terms of application domains, I focus on data-driven decisions in the public sector: technical evaluation and governance of automated decision-making systems and data-driven social service operations. I have collaborated with municipal agencies and nonprofits.
+
+Previously, I was a research fellow in the Simons program on causality and a FODSI postdoc at UC Berkeley, and I received my PhD in [Operations Research and Information Engineering](http://www.orie.cornell.edu) from Cornell University, where I worked with [Nathan Kallus](nathankallus.com) at Cornell Tech; my work was supported by an NDSEG fellowship.
         
 Email: zhoua at usc.edu. 
 
