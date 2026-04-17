@@ -24,7 +24,7 @@ My research interests are broadly in data-driven decision making under uncertain
         
 Email: zhoua at usc.edu. 
 
-[[Scholar]](https://scholar.google.com/citations?user=uSO4RPUAAAAJ&hl=en), [[CV]](https://github.com/angelamzhou/cv/blob/master/cv.pdf), 
+[[Scholar]](https://scholar.google.com/citations?user=uSO4RPUAAAAJ&hl=en), [[CV]](/assets/pdf/cv.pdf), 
 
 Interested in working with me? [Advising/mentorship plan and FAQ](https://docs.google.com/document/d/1DWnH3pAy6X3I3p39qakmybpoThDOrcm73iaPShRwHkQ/edit?usp=sharing) 
 
