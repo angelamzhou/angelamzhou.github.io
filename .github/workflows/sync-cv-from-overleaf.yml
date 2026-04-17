@@ -55,7 +55,7 @@ jobs:
 
       - name: Commit updated PDF
         run: |
-          if git diff --quiet -- "$CV_TARGET_PATH"; then
+          if [ -z "$(git status --porcelain -- "$CV_TARGET_PATH")" ]; then
             echo "No PDF changes to commit."
             exit 0
           fi
