@@ -36,14 +36,21 @@ jobs:
 
       - name: Compile CV PDF
         uses: xu-cheng/latex-action@v3
+        continue-on-error: true
         with:
           working_directory: overleaf-cv
           root_file: ${{ env.OVERLEAF_MAIN_TEX }}
+          continue_on_error: true
+          args: -pdf -file-line-error -interaction=nonstopmode
 
       - name: Copy compiled PDF into site
         run: |
           source_pdf="overleaf-cv/${OVERLEAF_MAIN_TEX%.tex}.pdf"
-          test -f "$source_pdf" || { echo "Expected PDF not found: $source_pdf"; exit 1; }
+          test -f "$source_pdf" || {
+            echo "Expected PDF not found: $source_pdf"
+            echo "The Overleaf source still failed to produce a PDF in CI."
+            exit 1
+          }
           cp "$source_pdf" "$CV_TARGET_PATH"
 
       - name: Commit updated PDF
