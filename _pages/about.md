@@ -26,7 +26,7 @@ Previously, I was a research fellow in the Simons program on causality and a FOD
         
 Email: zhoua at usc.edu. 
 
-[[Scholar]](https://scholar.google.com/citations?user=uSO4RPUAAAAJ&hl=en), [[CV]](/assets/pdf/cv.pdf), 
+[[Scholar]](https://scholar.google.com/citations?hl=en&user=uSO4RPUAAAAJ&view_op=list_works&sortby=pubdate), [[CV]](/assets/pdf/cv.pdf), 
 
 Interested in working with me? [Advising/mentorship plan and FAQ](https://docs.google.com/document/d/1DWnH3pAy6X3I3p39qakmybpoThDOrcm73iaPShRwHkQ/edit?usp=sharing) 
 
